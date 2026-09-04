@@ -1,0 +1,75 @@
+.edit-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 32px;
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 16px 40px rgba(30, 27, 75, 0.1);
+  border: 1px solid #eceef7;
+}
+
+.edit-container h2 {
+  text-align: center;
+  color: #0f172a;
+  font-weight: 800;
+  margin-bottom: 26px;
+}
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-form label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #334155;
+  font-size: 14px;
+}
+
+.edit-form input,
+.edit-form select {
+  padding: 11px 13px;
+  font-size: 15px;
+  border: 1px solid #dcdfea;
+  border-radius: 10px;
+  margin-bottom: 18px;
+  outline: none;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+  background: white;
+  color: #1e293b;
+  font-family: inherit;
+}
+
+.edit-form input:focus,
+.edit-form select:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.12);
+}
+
+.edit-form button,
+.update-btn {
+  padding: 13px;
+  font-size: 16px;
+  font-weight: 600;
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(79, 70, 229, 0.28);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.edit-form button:hover,
+.update-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 26px rgba(79, 70, 229, 0.35);
+}
+
+.edit-form button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
