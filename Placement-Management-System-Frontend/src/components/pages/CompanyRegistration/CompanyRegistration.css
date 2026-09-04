@@ -1,0 +1,54 @@
+.company-registration {
+  width: 480px;
+  margin: 30px auto;
+  padding: 28px;
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 16px 40px rgba(30, 27, 75, 0.12);
+  border: 1px solid #eceef7;
+}
+
+.company-registration h1 {
+  text-align: center;
+  margin-bottom: 22px;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.company-registration form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.company-registration input {
+  padding: 12px 14px;
+  font-size: 15.5px;
+  border: 1px solid #dcdfea;
+  border-radius: 10px;
+  outline: none;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.company-registration input:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.12);
+}
+
+.company-registration button {
+  padding: 12px;
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: 0 8px 20px rgba(79, 70, 229, 0.28);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.company-registration button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 26px rgba(79, 70, 229, 0.35);
+}
